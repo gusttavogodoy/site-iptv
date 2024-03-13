@@ -1,0 +1,295 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Helvetica;
+    box-sizing: border-box;
+}
+
+.logo{
+    position: absolute ;
+    top: 0%;
+    left: 0%;
+    right: 0%;
+    z-index: -1;
+    width: 100%;
+   
+
+}
+.inicio-itens{
+    font-size: 30px;
+    margin-top: 300px;
+    
+}
+
+.inicio-itens a{
+    color: #fff;
+    background-color: #c208ac;
+    border-radius:  2rem ; 
+    text-transform: uppercase;
+    font-family: 'Poppins', sans-serif;
+    border: 1px solid #c208ac;
+    display: flex;
+    max-width: 500px;
+    margin: 20px;
+    min-height: 60px;
+    margin-top: 20px ;
+    position: relative;
+    left: 20px;
+    text-decoration:none;
+    justify-content: left; /* Alinha horizontalmente ao centro */
+    align-items: center; /* Alinha verticalmente ao centro */
+    margin-top: 30px; 
+    font-weight: bold;
+}
+
+.icones{
+    padding: 3%;
+    
+}
+.textos-iniciais h1{
+    font-size: 60px;
+    color: #0e08c2;
+    text-transform: uppercase;
+    margin: 100px;
+    -webkit-text-stroke: 4px #3498db; /* Largura e cor do contorno */
+    color: #fff; 
+
+    
+}
+.textos-iniciais h2{
+    margin-top: -215px;
+    font-size: 55px;
+    float: right ;
+    color: #0e08c2;
+    padding: 50px;
+    -webkit-text-stroke: 4px #3498db; /* Largura e cor do contorno */
+    color: #fff; 
+    text-transform: uppercase;
+
+}
+.textos-iniciais h3{
+    text-transform: uppercase;
+    font-size: 60px;
+    -webkit-text-stroke: 4px #c208ac; /* Largura e cor do contorno */
+    color: #fff; 
+    margin-left: 300px;
+
+}
+
+.textos-iniciais p{
+    color: #fff;
+    margin-bottom: 0px;
+    float: right ;
+    font-size: 40px;
+    text-transform: uppercase;
+    padding-right: 50px;
+    
+}
+
+.textos-iniciais h4{
+    color: #fff;
+    font-size: 30px;
+    margin-left: 50px;
+    margin-right: 60%;
+    margin-top: 150px;
+    font-family: oblique;
+}
+
+
+
+
+
+/* planos do site */
+
+
+
+
+
+.container-plans{
+    background-color: #000000;
+    color: #fff;
+    padding: 200px;
+    margin-top: 100px;
+}
+.container-plans h2{
+    font-size: 30px;
+    text-align: center;
+    margin-top: -100px;
+    font-family: italic;
+    
+}
+.container-plans h1{
+    font-size: 60px;
+    text-align: center;
+    margin-top: 20px;
+    font-family: sans-serif;
+}
+.container-plans p{
+    margin: 20px;
+    font-size: 25px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-top: 20px;
+}
+.logo-plans{
+    max-width: 70%; /* Para garantir que as imagens não ultrapassem seu tamanho original */
+    display: inline-block;
+}
+.plans li{
+    list-style: none; /* Remove os marcadores da lista */
+    padding: 10px; /* Remove o preenchimento padrão da lista */
+    margin-right: 20px;
+    font-size: 20px;
+    text-align: left;
+    color: #ccc;
+    
+       
+}
+.plans-container{
+    display: flex;
+    text-align: left;
+    margin-left: 100px;
+    
+}
+.plans .plan-name{
+    font-size: 50px;
+    font-family: sans-serif;
+    text-transform: uppercase;
+    color: #c208ac;
+    text-align: center;
+    
+}
+.plans .price{
+    font-size: 50px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-bottom: 20px;
+    font-style: oblique;
+    font-weight: bold;
+    text-align: center;
+}
+.plans .icones-plans{
+    width: 24px;
+    height: 24px;
+    margin-right: 5px;
+  
+
+}
+.plans .plan-btn{
+    margin-left: 160px;
+    padding: 5%;
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 40px;
+    color: #fff;
+    background-color: #c208ac;
+    border-radius:  5rem ; 
+    font-family:monospace;
+    font-style:oblique ;
+    display: flex;
+    width: 250px;
+    align-items: center; /* Alinha verticalmente ao centro */
+    max-height: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+.plans ul{
+    margin-top: 20px;
+}
+.plan-btn .icone-assine{
+    height: 24px;
+    width: 24px;
+    margin-right: 18px;
+    
+}
+
+
+
+/*  suporte do site                        */
+
+
+
+.container-suporte h2{
+    font-size: 50px;
+    text-align: center;
+    margin-bottom: 50px;
+    color: #fff;
+}
+.container-suporte h1{
+    font-size: 60px;
+    margin-top: 10px;
+    text-align: center;
+    -webkit-text-stroke: 4px #c208ac;
+   
+    color: #fff;
+}
+.container-suporte{
+    background-color: #000000;
+    padding: 20px;
+}
+.list-suporte{
+    margin-top: 100px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    text-align: center;
+
+}
+.list-suporte li{
+    color: #fff;
+    list-style: none;
+    font-size: 25px;
+    padding: 40px;
+    max-width: 800px;
+    margin-left: 60px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: oblique;
+}
+.list-suporte p{
+    color: #c208ac;
+    padding: 40px;
+    font-size: 40px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.icones-suporte{
+    width: 80px;
+    height: 80px;
+}
+.list-suporte div{
+    border: 4px solid #c208ac; /* Largura, tipo e cor da borda */
+    padding: 30px;
+    border-radius: 2%;
+    background-color: #232323;
+    text-align: center;
+}
+.plans-container div{
+    border: 4px double #c208ac; /* Largura, tipo e cor da borda */
+    border-radius: 2%;
+    text-align: center;
+    margin: 20px;
+    border-bottom: 50px;
+    transition: 0.3s ease;
+}
+.plans-container:houver{
+    background-color: #abaac2;
+}
+
+/* icone fixo do whats whapp*/
+
+.whatsapp-icon{
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    padding: 10px;
+    border-radius: 50%;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    text-decoration: none;
+    
+}
+
+.whatsapp-icon img {
+    width: 80px;
+    height: 80px;
+
+}
+
